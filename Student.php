@@ -12,8 +12,9 @@
  * @author jaydenliang
  */
 class Student {
-    public $surname, $first_name;
-    public $emails, $grades;
+    public $surname, $first_name;//sring
+    public $emails, $grades;//array
+    
     function __construct() {
         $this->surname = '';
         $this->first_name = '';
